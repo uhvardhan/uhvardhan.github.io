@@ -1,10 +1,17 @@
 # --- Basic options --- #
 
+# url is the full website URL
+# baseurl is the website's URL without the hostname
+
+# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
+url: "https://uhvardhan.github.io"
+baseurl: ""
+
 # Name of website
 title: Harshvardhan Uppaluru
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: Let me introduce you to my geek side!
 
 # Your name to show in the footer
 author: Harshvardhan Uppaluru
@@ -12,12 +19,9 @@ author: Harshvardhan Uppaluru
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Projects: 
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://uhvardhan.github.io"
-
+  Resume | CV: 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
