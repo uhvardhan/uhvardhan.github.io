@@ -11,7 +11,7 @@ baseurl: ""
 title: Harshvardhan Uppaluru
 
 # Short description of your site
-description: Let me introduce you to my geek side!
+description: Machine Learning Enthusiast
 
 # Your name to show in the footer
 author: Harshvardhan Uppaluru
@@ -19,9 +19,9 @@ author: Harshvardhan Uppaluru
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Projects: 
+  Projects: "projects"
   About Me: "aboutme"
-  Resume | CV: 
+  Resume | CV:
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
@@ -42,13 +42,10 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "uhvardhan93@gmail.com"
-  facebook: harshvardhan.uppaluru.93
+  email: "uhv93@terpmail.umd.edu"
   github: uhvardhan
   twitter: uhvardhan
   linkedin: uhvardhan
-  rss: false
-  instagram: uhvardhan
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -69,7 +66,7 @@ social-network-links:
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: true
 
 # How to display the link to your website in the footer
