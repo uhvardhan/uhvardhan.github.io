@@ -28,3 +28,7 @@ Step 3: Move the `test_files` folder to your blog's "assests/img" folder.
 Step 4: Add these files to the git repository and commit. Push the repo.
 
 Congratulations! You have updated your site!
+
+### References:
+
+1. [Adam Blomberg Blog](https://blomadam.github.io/tutorials/2017/04/09/ipynb-to-Jekyll-Post-tools.html)
