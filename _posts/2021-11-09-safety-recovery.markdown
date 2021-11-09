@@ -2,7 +2,7 @@
 layout: post
 title:  "A Physics-Based Safety Recovery Approach for Fault-Resilient Multi-Quadcopter Coordination"
 # date:   2021-10-07 19:10 +00:00
-# image: /images/Predictionerrorcases.png
+image: /images/3d.png
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Hamid Emadi, Harshvardhan Uppaluru, and Hossein Rastgoftar</strong>"
