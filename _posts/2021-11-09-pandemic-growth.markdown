@@ -2,7 +2,7 @@
 layout: post
 title:  "A Physics-Based Data-Driven Approach for Finite Time Estimation of Pandemic Growth"
 # date:   2021-10-07 19:10 +00:00
-image: /images/Predictionerrorcases.png
+image: /images/predictionerrors.png
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, Hamid Emadi, and  Hossein Rastgoftar</strong>"
