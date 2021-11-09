@@ -11,5 +11,6 @@ venue: "Submitted to ECC 2022"
 # video:
 # slides:
 # code:
-
 ---
+We integrate cooperative localization with continuum deformation coordination of a multi-quadrotor
+system in presence of position uncertainty, to assure safety and optimality of the quadrotor team coordination.

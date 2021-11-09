@@ -11,5 +11,6 @@ venue: "Submitted to ECC 2022"
 # video:
 # slides:
 # code:
-
 ---
+A continuous-time formulation for modeling and controlling the traffic congestion in a
+network of interconnected roads (NOIR) through boundary control flow. 
