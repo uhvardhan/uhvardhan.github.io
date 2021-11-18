@@ -7,10 +7,10 @@ categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, Hamid Emadi, and  Hossein Rastgoftar</strong>"
 venue: "Submitted to ECC 2022"
-# arxiv:
+arxiv: https://arxiv.org/pdf/2111.08908.pdf
 # video:
 # slides:
 # code:
 ---
 A continuous-time formulation for modeling and controlling the traffic congestion in a
-network of interconnected roads (NOIR) through boundary control flow. 
+network of interconnected roads (NOIR) through boundary control flow.
