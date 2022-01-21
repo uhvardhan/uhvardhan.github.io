@@ -7,4 +7,3 @@ instructor: "<strong>Prof. Hossein Rastgoftar</strong>"
 role: "Teaching Assistant"
 semester: "Spring 2022"
 ---
-Will be updated soon.
