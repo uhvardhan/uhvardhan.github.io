@@ -6,7 +6,7 @@ image: /images/3d.png
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Hamid Emadi, Harshvardhan Uppaluru, and Hossein Rastgoftar</strong>"
-venue: "Submitted to ACC 2022"
+venue: "Accepted in ACC 2022"
 arxiv: https://arxiv.org/pdf/2110.07777.pdf
 # video:
 # slides:

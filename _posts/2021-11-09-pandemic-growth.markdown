@@ -6,12 +6,12 @@ image: /images/stability.png
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, Hamid Emadi, and  Hossein Rastgoftar</strong>"
-venue: "Submitted to ACC 2022"
+venue: "Arxiv preprint"
 arxiv: https://arxiv.org/pdf/2110.11903.pdf
 # video:
 # slides:
 # code:
 ---
 A physics-based approach based on temporal and spatial conservation laws to model and
-learn the evolution of COVID-19 in United States. We were able to achieve less than 
+learn the evolution of COVID-19 in United States. We were able to achieve less than
 1% relative estimation error with our model.
