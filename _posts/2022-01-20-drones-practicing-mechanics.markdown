@@ -6,7 +6,7 @@ image: /images/cf.jpg
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru and  Hossein Rastgoftar</strong>"
-venue: "Submitted to WAFR 2022"
+venue: "Arxiv Preprint"
 arxiv: https://arxiv.org/abs/2201.08004.pdf
 # video:
 # slides:
