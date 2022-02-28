@@ -6,7 +6,7 @@ image: /images/example_noir.png
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, Hamid Emadi, and  Hossein Rastgoftar</strong>"
-venue: "Submitted to ECC 2022"
+venue: "Accepted at ECC 2022"
 arxiv: https://arxiv.org/pdf/2111.08908.pdf
 # video:
 # slides:
