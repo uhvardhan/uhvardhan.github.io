@@ -6,7 +6,7 @@ image: /images/resilience.PNG
 categories: research
 author: "Matthew Romano & Harshvardhan Uppaluru"
 authors: "<strong>Matthew Romano, Harshvardhan Uppaluru, Hossein Rastgoftar, Ella Atkins</strong>"
-venue: "Submitted to IROS 2022"
+venue: "Arxiv Preprint"
 arxiv: https://arxiv.org/pdf/2203.01807.pdf
 # video:
 # slides:

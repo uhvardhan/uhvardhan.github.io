@@ -5,8 +5,8 @@ title:  "A Physics-Based Data-Driven Approach for Finite Time Estimation of Pand
 image: /images/stability.png
 categories: research
 author: "Harshvardhan Uppaluru"
-authors: "<strong>Harshvardhan Uppaluru, Hamid Emadi, and  Hossein Rastgoftar</strong>"
-venue: "Arxiv preprint"
+authors: "<strong>Harshvardhan Uppaluru, and  Hossein Rastgoftar</strong>"
+venue: "Accepted at MECC 2022"
 arxiv: https://arxiv.org/pdf/2110.11903.pdf
 # video:
 # slides:
