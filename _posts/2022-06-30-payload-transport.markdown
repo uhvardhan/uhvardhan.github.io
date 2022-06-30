@@ -2,7 +2,7 @@
 layout: post
 title:  "Fast and Safe Aerial Payload Transport in Urban Areas"
 # date:   2021-10-07 19:10 +00:00
-image: /images/resilience.PNG
+image: /images/quad.jpg
 categories: research
 author: "Aeris El Asslouj"
 authors: "<strong>Aeris El Asslouj, Harshvardhan Uppaluru, Hossein Rastgoftar</strong>"
