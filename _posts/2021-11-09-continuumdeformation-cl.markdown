@@ -6,8 +6,8 @@ image: /images/configuration.png
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Hamid Emadi, Harshvardhan Uppaluru, and Hossein Rastgoftar</strong>"
-venue: "Accepted at ECC 2022"
-paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9867164
+venue: "ECC 2022"
+paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9838226
 # video:
 # slides:
 # code:

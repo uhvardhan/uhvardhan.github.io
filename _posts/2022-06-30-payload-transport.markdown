@@ -7,7 +7,7 @@ categories: research
 author: "Aeris El Asslouj"
 authors: "<strong>Aeris El Asslouj, Harshvardhan Uppaluru, Hossein Rastgoftar</strong>"
 venue: "Arxiv Preprint"
-arxiv: https://arxiv.org/pdf/2206.10064.pdf
+paper: https://arxiv.org/pdf/2206.10064.pdf
 # video:
 # slides:
 # code:

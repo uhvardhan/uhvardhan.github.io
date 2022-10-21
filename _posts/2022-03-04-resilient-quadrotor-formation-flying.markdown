@@ -7,7 +7,7 @@ categories: research
 author: "Matthew Romano & Harshvardhan Uppaluru"
 authors: "<strong>Matthew Romano, Harshvardhan Uppaluru, Hossein Rastgoftar, Ella Atkins</strong>"
 venue: "Arxiv Preprint"
-arxiv: https://arxiv.org/pdf/2203.01807.pdf
+paper: https://arxiv.org/pdf/2203.01807.pdf
 # video:
 # slides:
 # code:

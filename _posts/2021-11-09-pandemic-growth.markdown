@@ -6,8 +6,8 @@ image: /images/stability.png
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, and  Hossein Rastgoftar</strong>"
-venue: "Accepted at MECC 2022"
-arxiv: https://arxiv.org/pdf/2110.11903.pdf
+venue: "MECC 2022"
+paper: https://arxiv.org/pdf/2110.11903.pdf
 # video:
 # slides:
 # code:

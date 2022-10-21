@@ -7,7 +7,7 @@ categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru and  Hossein Rastgoftar</strong>"
 venue: "Arxiv Preprint"
-arxiv: https://arxiv.org/abs/2201.08004.pdf
+paper: https://arxiv.org/abs/2201.08004.pdf
 # video:
 # slides:
 # code:
