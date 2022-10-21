@@ -7,7 +7,7 @@ categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Hamid Emadi, Harshvardhan Uppaluru, and Hossein Rastgoftar</strong>"
 venue: "Accepted at ECC 2022"
-arxiv: https://arxiv.org/pdf/2111.05821.pdf
+paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9867164
 # video:
 # slides:
 # code:
