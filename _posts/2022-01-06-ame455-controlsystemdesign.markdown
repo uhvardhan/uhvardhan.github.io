@@ -5,6 +5,6 @@ image: /images/control_system.jpeg
 categories: teaching
 instructor: "<strong>Prof. Hossein Rastgoftar</strong>"
 role: "Teaching Assistant"
-semester: "Spring 2022"
+semester: "Spring 2022, Spring 2023"
 # materials: https://github.com/uhvardhan/AME455
 ---
