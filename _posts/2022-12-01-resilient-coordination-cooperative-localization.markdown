@@ -6,7 +6,7 @@ image: /images/time_varying_during_failure.png
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, Hamid Emadi and Hossein Rastgoftar</strong>"
-venue: "Aerospace Science and Technology"
+venue: "Aerospace Science and Technology (AST) 2022"
 paper: https://www.sciencedirect.com/science/article/pii/S1270963822006344
 # video:
 # slides:
