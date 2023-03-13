@@ -7,7 +7,7 @@ categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, and Hossein Rastgoftar</strong>"
 venue: "ACC 2023"
-# paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9838226
+paper: 
 # video:
 # slides:
 # code:
