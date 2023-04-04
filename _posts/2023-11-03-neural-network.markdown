@@ -7,7 +7,7 @@ categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, and Hossein Rastgoftar</strong>"
 venue: "ACC 2023"
-# paper:
+paper: "Will be posted soon"
 # video:
 # slides:
 # code:
