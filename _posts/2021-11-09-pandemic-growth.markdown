@@ -12,6 +12,10 @@ paper: https://arxiv.org/pdf/2110.11903.pdf
 # slides:
 # code:
 ---
-A physics-based approach based on temporal and spatial conservation laws to model and
-learn the evolution of COVID-19 in United States. We were able to achieve less than
-1% relative estimation error with our model.
+A novel physics-based data-driven approach for modeling and predicting the
+spread of the COVID-19 pandemic in the United States, utilizing spatial and
+temporal conservation laws. The prediction model demonstrated high accuracy,
+with relative estimation errors below 1\% for the number of cases, deaths, and
+recoveries, between March 12, 2020 and October 1, 2021. Furthermore, our
+results aligned with the observed growth of the pandemic, considering the
+impact of the delta variant and the emergence of new waves of infections.

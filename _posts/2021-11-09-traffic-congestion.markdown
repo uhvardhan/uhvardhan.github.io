@@ -12,5 +12,10 @@ paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9838036
 # slides:
 # code:
 ---
-A continuous-time formulation for modeling and controlling the traffic congestion in a
-network of interconnected roads (NOIR) through boundary control flow.
+A continuous-time optimal control approach for modeling and controlling traffic
+congestion in a network of interconnected roads using the street map of Phoenix
+City. The proposed model utilizes mass-flow conservation law, stochastic
+processes, and boundary control, with constraints ensuring feasibility and
+traffic backflow avoidance. The approach demonstrates stability in simulation
+studies, and future work will explore modeling and controlling traffic
+congestion as a Markov Decision Process.

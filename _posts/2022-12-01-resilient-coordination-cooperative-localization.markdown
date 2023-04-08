@@ -12,6 +12,9 @@ paper: https://www.sciencedirect.com/science/article/pii/S1270963822006344
 # slides:
 # code:
 ---
-In this study, we use the concepts of continuum mechanics to design a physics-based
-algorithm that can ensure the safe and robust operation of a MUS in the face of
-disturbances and unexpected UAS failure(s).
+A fault-resilient multi-UAS coordination approach using continuum mechanics
+principles to ensure safety and manage transitions between Homogeneous
+Deformation Mode and Fault Resilient Mode. The approach utilizes Cooperative
+Localization for detecting failed UAS and localizing healthy ones at a low
+computational cost, and has been validated through simulations with various
+failure scenarios.
