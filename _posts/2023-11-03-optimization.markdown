@@ -7,9 +7,12 @@ categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, and Hossein Rastgoftar</strong>"
 venue: "IFAC 2023"
-paper: "Will be posted soon"
+paper: https://drive.google.com/file/d/1by8-hpCbijOEjwMWRcQbpn9_aKOQ5GMs/view?usp=share_link
 # video:
 # slides:
 # code:
 ---
-We present the MAS continuum deformation coordination by a leader-follower multi-layer feed-forward network optimization with a single input layer, multiple hidden layers, and a single output layer.
+Developed a continuum mechanics-based leader-follower paradigm for optimal
+large-scale multi-agent system (MAS) deformation using quadratic programming,
+ensuring collision avoidance and minimal deviation from desired trajectory, as
+demonstrated with 67 quadcopters tracking a helix trajectory in 3D motion space.

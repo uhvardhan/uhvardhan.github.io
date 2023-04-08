@@ -7,9 +7,12 @@ categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, and Hossein Rastgoftar</strong>"
 venue: "ACC 2023"
-paper: "Will be posted soon"
+paper: https://drive.google.com/file/d/1VREDkUBuj4GUNazdCbIUFtlFuc-aPCLF/view?usp=share_link
 # video:
 # slides:
 # code:
 ---
-We develop and present a novel strategy for safe coordination of a large-scale multi-agent team with “local deformation” capabilities.
+Introduced a neural network-based technique for the safe coordination and
+optimization of a team of N quadcopters that track a known target trajectory
+in 3D motion space. The algorithm optimizes the weights and biases based on the
+desired trajectory to track.
