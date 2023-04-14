@@ -7,7 +7,7 @@ categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, and Hossein Rastgoftar</strong>"
 venue: "IFAC 2023"
-paper: https://drive.google.com/file/d/1by8-hpCbijOEjwMWRcQbpn9_aKOQ5GMs/view?usp=share_link
+# paper: https://drive.google.com/file/d/1by8-hpCbijOEjwMWRcQbpn9_aKOQ5GMs/view?usp=share_link
 # video:
 # slides:
 # code:
