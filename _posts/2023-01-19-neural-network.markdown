@@ -6,7 +6,7 @@ image: /images/ref_config_zero.png
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, and Hossein Rastgoftar</strong>"
-venue: "ACC 2023"
+venue: "American Control Conference (ACC), 2023"
 paper: https://arxiv.org/pdf/2304.08638.pdf
 # video:
 # slides:

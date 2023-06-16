@@ -6,7 +6,7 @@ image: /images/example_noir.png
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, Hamid Emadi, and  Hossein Rastgoftar</strong>"
-venue: "ECC 2022"
+venue: "European Control Conference (ECC), 2022"
 paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9838036
 # video:
 # slides:

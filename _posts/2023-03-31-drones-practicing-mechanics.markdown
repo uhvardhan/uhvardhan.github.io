@@ -6,7 +6,7 @@ image: /images/cf.jpg
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru and  Hossein Rastgoftar</strong>"
-venue: "ICUAS 2023"
+venue: "International Conference on Unmanned Aircraft Systems (ICUAS), 2023"
 paper: https://arxiv.org/abs/2201.08004.pdf
 # video:
 # slides:

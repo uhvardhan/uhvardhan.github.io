@@ -6,7 +6,7 @@ image: /images/3d.png
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Hamid Emadi, Harshvardhan Uppaluru, and Hossein Rastgoftar</strong>"
-venue: "ACC 2022"
+venue: "American Control Conference (ACC), 2022"
 paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9867164
 # video:
 # slides:

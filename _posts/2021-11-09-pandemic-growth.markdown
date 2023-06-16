@@ -6,7 +6,7 @@ image: /images/stability.png
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, and  Hossein Rastgoftar</strong>"
-venue: "MECC 2022"
+venue: "Modeling, Estimation and Control Conference (MECC), 2022"
 paper: https://arxiv.org/pdf/2110.11903.pdf
 # video:
 # slides:

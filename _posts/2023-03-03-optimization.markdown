@@ -6,7 +6,7 @@ image: /images/ref_config.png
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<strong>Harshvardhan Uppaluru, and Hossein Rastgoftar</strong>"
-venue: "IFAC 2023"
+venue: "International Federation of Automatic Control (IFAC), 2023"
 paper: https://arxiv.org/pdf/2304.06839.pdf
 # video:
 # slides:
