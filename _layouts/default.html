@@ -186,7 +186,7 @@
              {% if post.categories contains 'research' %}
                {% assign counter = counter | plus: 1 %}
                <li class="publication-item">
-                 {{post.authors}}. <strong>{{post.title}}</strong>. <em>{{post.venue}}</em>.
+                 <strong>{{post.title}}</strong>. {{post.authors}}. <em>{{post.venue}}</em>.
                  <div class="publication-links">
                    {% if post.paper %}<a href="{{post.paper}}">Paper</a>{% endif %}
                    <!-- {% if post.code %}<a href="{{post.code}}">Code</a>{% endif %} -->
@@ -197,24 +197,26 @@
            {% endfor %}
           </ol>
 
-        <!-- <br>
+        <br>
         <br>
         <br>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Services</h2>
+              <h2>Professional Services</h2>
             </td>
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <ul>
+            <li> International Conference on Physical Assurance and Inspection of Electronics (PAINE) - Reviewer
+            <li> International Conference on Neuromorphic Computing Systems (ICONS) - Session Chair
             <li> Great Lakes Symposium on VLSI (GLSVLSI) - Program Committee Member
             <li> Transactions on Aerospace and Electronic Systems (TAES) - Reviewer
             <li> Design Automation Conference (DAC) - Reviewer
             <li> International Conference on Unmanned Aircraft Systems (ICUAS) - Reviewer
           </ul>
-        </table> -->
+        </table>
 
         <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
