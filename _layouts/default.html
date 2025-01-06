@@ -109,7 +109,7 @@
           </tr>
         </table> -->
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h3>Recent Publications</h3>
@@ -118,7 +118,7 @@
               </p>
             </td>
           </tr>
-        </table>
+        </table> -->
         
         <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
@@ -160,7 +160,7 @@
           {% endfor %}
         </table> -->
 
-        <style>
+        <!-- <style>
           .publications {
            list-style-type: decimal;
            padding-left: 20px;
@@ -191,13 +191,13 @@
                  {{post.authors}}. <strong>{{post.title}}</strong>. <em>{{post.venue}}</em>.
                  <div class="publication-links">
                    {% if post.paper %}<a href="{{post.paper}}">Paper</a>{% endif %}
-                   <!-- {% if post.code %}<a href="{{post.code}}">Code</a>{% endif %} -->
-                   <!-- {% if post.slides %}<a href="{{post.slides}}">Slides</a>{% endif %} -->
+                   {% if post.code %}<a href="{{post.code}}">Code</a>{% endif %}
+                   {% if post.slides %}<a href="{{post.slides}}">Slides</a>{% endif %}
                  </div>
                </li>
              {% endif %}
            {% endfor %}
-          </ol>
+          </ol> -->
 
         <!-- <br>
         <br>
