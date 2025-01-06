@@ -109,7 +109,7 @@
           </tr>
         </table> -->
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Publications</h2>
@@ -122,9 +122,9 @@
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
-            <!-- <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td> -->
+            </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
@@ -154,7 +154,47 @@
           {% endif %}
           {% endfor %}
           {% endfor %}
-        </table>
+        </table> -->
+
+        <style>
+          .publications {
+           list-style-type: decimal;
+           padding-left: 20px;
+          }
+          
+          .publication-item {
+           margin-bottom: 1.5em;
+          }
+          
+          .publication-links {
+           font-size: 0.9em;
+           margin-top: 5px;
+          }
+          
+          .publication-links a {
+           margin-right: 10px;
+           color: #0066cc;
+           text-decoration: none;
+          }
+          </style>
+          
+          {% assign counter = 0 %}
+          <ol class="publications">
+           {% for post in site.posts reversed %}
+             {% if post.categories contains 'research' %}
+               {% assign counter = counter | plus: 1 %}
+               <li class="publication-item">
+                 {{post.authors}}. <strong>{{post.title}}</strong>. <em>{{post.venue}}</em>.
+                 <div class="publication-links">
+                   {% if post.paper %}<a href="{{post.paper}}">Paper</a>{% endif %}
+                   {% if post.code %}<a href="{{post.code}}">Code</a>{% endif %}
+                   {% if post.slides %}<a href="{{post.slides}}">Slides</a>{% endif %}
+                 </div>
+               </li>
+             {% endif %}
+           {% endfor %}
+          </ol>
+
         <br>
         <br>
         <br>
