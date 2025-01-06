@@ -1,111 +1,141 @@
----
----
+// ---
+// ---
 
-//
-// IMPORTS
-//
+// //
+// // IMPORTS
+// //
 
-//@import "reset";
-//@import "variables";
-// Syntax highlighting @import is at the bottom of this file
+// //@import "reset";
+// //@import "variables";
+// // Syntax highlighting @import is at the bottom of this file
 
-/**************/
-/* BASE RULES */
-/**************/
-/* Dark theme */
-body {
-  background-color: #1a1a1a;
-  color: #ffffff;
+// /**************/
+// /* BASE RULES */
+// /**************/
+// a {
+//   color: #1772d0;
+//   text-decoration: none;
+// }
+
+// a:focus,
+// a:hover {
+//   color: #f09228;
+//   text-decoration: none;
+// }
+
+// body,
+// td,
+// th,
+// tr,
+// p,
+// a {
+//   font-family: 'Lato', Verdana, Helvetica, sans-serif;
+//   font-size: 14px;
+//   font-display: auto;
+// }
+
+// strong {
+//   font-family: 'Lato', Verdana, Helvetica, sans-serif;
+//   font-size: 14px;
+//   font-display: auto;
+// }
+
+// h2 {
+//   font-family: 'Lato', Verdana, Helvetica, sans-serif;
+//   font-size: 22px;
+//   font-display: auto;
+//   font-weight: normal;
+//   padding: 0px;
+//   margin: 0px;
+//   display:inline;
+// }
+
+// h3 {
+//   font-family: 'Lato', Verdana, Helvetica, sans-serif;
+//   font-size: 14px;
+//   font-weight: 700;
+//   font-display: auto;
+//   padding: 0px;
+//   margin: 0px;
+//   display:inline;
+// }
+
+// h1 {
+//   font-family: 'Lato', Verdana, Helvetica, sans-serif;
+//   font-size: 32px;
+//   font-weight: normal;
+//   font-display: auto;
+//   text-align: center;
+//   padding: 0px;
+//   margin-block-start: 14px;
+//   margin-block-end: 14px;
+//   margin-left: 0px;
+//   margin-right: 0px;
+
+// }
+
+// .one {
+//   width: 160px;
+//   height: 160px;
+//   position: relative;
+// }
+
+// .two {
+//   width: 160px;
+//   height: 160px;
+//   position: absolute;
+//   transition: opacity .2s ease-in-out;
+//   -moz-transition: opacity .2s ease-in-out;
+//   -webkit-transition: opacity .2s ease-in-out;
+// }
+
+// .fade {
+//   transition: opacity .2s ease-in-out;
+//   -moz-transition: opacity .2s ease-in-out;
+//   -webkit-transition: opacity .2s ease-in-out;
+// }
+
+// span.highlight {
+//   background-color: #ffffd0;
+// }
+
+// // Settled on moving the import of syntax highlighting to the bottom of the CSS
+// // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+// //@import "highlights";
+// //@import "svg-icons";
+
+// Base colors for dark theme
+$bg-color: #1a1a1a;
+$text-color: #ffffff;
+$link-color: #66b3ff;
+$link-hover: #99ccff;
+
+body, td, th, tr, p {
+ background-color: $bg-color;
+ color: $text-color;
+ font-family: 'Lato', Verdana, Helvetica, sans-serif;
+ font-size: 14px;
 }
 
 a {
-  color: #1772d0;
-  text-decoration: none;
+ color: $link-color;
+ text-decoration: none;
+ 
+ &:focus, &:hover {
+   color: $link-hover;
+ }
 }
 
-a:focus,
-a:hover {
-  color: #f09228;
-  text-decoration: none;
-}
-
-body,
-td,
-th,
-tr,
-p,
-a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-display: auto;
-}
-
-strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-display: auto;
-}
-
-h2 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
-  font-display: auto;
-  font-weight: normal;
-  padding: 0px;
-  margin: 0px;
-  display:inline;
-}
-
-h3 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  font-display: auto;
-  padding: 0px;
-  margin: 0px;
-  display:inline;
-}
-
-h1 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
-  font-weight: normal;
-  font-display: auto;
-  text-align: center;
-  padding: 0px;
-  margin-block-start: 14px;
-  margin-block-end: 14px;
-  margin-left: 0px;
-  margin-right: 0px;
-
-}
-
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+h1, h2, h3 {
+ color: $text-color;
 }
 
 span.highlight {
-  background-color: #ffffd0;
+ background-color: #2d2d2d;
+ color: $text-color;
 }
 
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-//@import "highlights";
-//@import "svg-icons";
+// Keep other existing styles but update colors
+.one, .two {
+ background-color: $bg-color;
+}
