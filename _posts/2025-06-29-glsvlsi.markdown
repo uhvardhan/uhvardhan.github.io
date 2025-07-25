@@ -4,7 +4,7 @@ title:  "Carbon Efficiency of Natural Organic Honey-Memristor Based Neuromorphic
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<em>Harshvardhan Uppaluru</em>, Zoe Templin, Shah Zayed Riam, Feng Zhao, and Jinhui Wang"
-venue: "GLSVLSI '25: Proceedings of the Great Lakes Symposium on VLSI 2025"
+venue: "Proceedings of the Great Lakes Symposium on VLSI (GLSVLSI) 2025"
 paper: https://doi.org/10.1145/3716368.3735268
 # video:
 # slides:

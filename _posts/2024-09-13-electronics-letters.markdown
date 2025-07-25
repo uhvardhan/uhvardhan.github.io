@@ -6,7 +6,7 @@ title:  "256-level honey memristor-based in-memory neuromorphic system"
 categories: research
 author: "Harshvardhan Uppaluru"
 authors: "<em>Harshvardhan Uppaluru</em>, Zoe Templin, Mohammed Rafeeq Khan, Md Omar Faruque, Feng Zhao, and Jinhui Wang"
-venue: "Electronics Letters (EL), 2024"
+venue: "Electronics Letters (EL) 2024"
 paper: https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ell2.70029
 # video:
 # slides:
