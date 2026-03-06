@@ -1,0 +1,322 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harshvardhan Uppaluru</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    #main {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    h1 {
+      font-size: 1.6em;
+      margin-bottom: 0.2em;
+    }
+    h2 {
+      font-size: 1.1em;
+      margin-top: 2em;
+      margin-bottom: 0.5em;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 4px;
+    }
+    a {
+      color: #333;
+    }
+    a:hover {
+      color: #c0392b;
+    }
+    .header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 32px;
+      margin-bottom: 2em;
+    }
+    .header-text {
+      flex: 1;
+    }
+    .header-text h1 {
+      margin-top: 0;
+      margin-bottom: 0.15em;
+    }
+    .header-text .tagline {
+      margin: 0 0 0.5em 0;
+      color: #555;
+      font-style: italic;
+    }
+    .header-text .links {
+      font-size: 0.95em;
+    }
+    .header-text .links a {
+      margin-right: 4px;
+    }
+    .profile-photo {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+    ol.pubs {
+      padding-left: 1.4em;
+    }
+    ol.pubs li {
+      margin-bottom: 1em;
+    }
+    ol.pubs .pub-links {
+      font-size: 0.9em;
+      margin-top: 2px;
+    }
+    ul.plain {
+      padding-left: 1.4em;
+    }
+    ul.plain li {
+      margin-bottom: 0.4em;
+    }
+    .writing-placeholder {
+      color: #888;
+      font-style: italic;
+    }
+    /* ── Timeline ── */
+    .tl-container {
+      position: relative;
+      margin-bottom: 1em;
+    }
+    .tl-entry {
+      display: grid;
+      grid-template-columns: 90px 16px 64px 1fr;
+      column-gap: 14px;
+      margin-bottom: 28px;
+      align-items: flex-start;
+    }
+    .tl-year {
+      text-align: right;
+      color: #999;
+      font-size: 0.82em;
+      padding-top: 6px;
+      line-height: 1.3;
+    }
+    .tl-spine {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+    .tl-spine::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: -28px; /* extends into gap between entries */
+      width: 1px;
+      background: #ccc;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 0;
+    }
+    .tl-entry:last-child .tl-spine::before {
+      bottom: 0;
+    }
+    .tl-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: #bbb;
+      border: 2px solid #fff;
+      outline: 1px solid #bbb;
+      flex-shrink: 0;
+      margin-top: 6px;
+      position: relative;
+      z-index: 1;
+    }
+    .tl-logo {
+      width: 60px;
+      height: 60px;
+      border-radius: 6px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7em;
+      font-weight: bold;
+      color: #fff;
+      flex-shrink: 0;
+      letter-spacing: 0.02em;
+      text-align: center;
+      line-height: 1.2;
+    }
+    .tl-logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .tl-content {
+      padding-top: 2px;
+      font-size: 0.95em;
+    }
+    .tl-content p {
+      margin: 0 0 0.4em 0;
+    }
+    footer {
+      margin-top: 3em;
+      padding-top: 1em;
+      border-top: 1px solid #eee;
+      font-size: 0.8em;
+      color: #aaa;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div id="main">
+
+  <!-- Header -->
+  <div class="header">
+    <img class="profile-photo" src="images/my_image.jpg" alt="Harshvardhan Uppaluru">
+    <div class="header-text">
+      <h1>Harshvardhan Uppaluru</h1>
+      <p class="tagline">Do what you can, with what you have, where you are.</p>
+      <div class="links">
+        <a href="docs/Curriculum Vitae.pdf">CV</a> /
+        <a href="mailto:huppaluru@southalabama.edu">Email</a> /
+        <a href="https://github.com/uhvardhan">GitHub</a> /
+        <a href="https://www.linkedin.com/in/uhvardhan">LinkedIn</a> /
+        <a href="https://scholar.google.com/citations?user=9jLXtbsAAAAJ&hl=en">Google Scholar</a> /
+        <a href="https://www.twitter.com/uhvardhan">Twitter</a>
+      </div>
+    </div>
+  </div>
+  <hr style="border: none; border-top: 1px solid #bbb; margin: 0 0 1.5em 0;">
+
+  <!-- Timeline -->
+  <div class="tl-container">
+
+    <div class="tl-entry">
+      <div class="tl-year">20xx–present</div>
+      <div class="tl-spine"><div class="tl-dot"></div></div>
+      <div class="tl-logo" style="background:#005EB8;">USA</div>
+      <div class="tl-content">
+        <p>Postdoctoral Fellow at the <a href="https://sites.google.com/view/impact-lab">IMPACT Lab</a>,
+        University of South Alabama, under
+        <a href="https://www.southalabama.edu/colleges/engineering/ece/wang.html">Prof. Jinhui Wang</a> and
+        <a href="https://www.southalabama.edu/colleges/engineering/ece/gong.html">Prof. Na Gong</a>.</p>
+      </div>
+    </div>
+
+    <div class="tl-entry">
+      <div class="tl-year">20xx–20xx</div>
+      <div class="tl-spine"><div class="tl-dot"></div></div>
+      <div class="tl-logo" style="background:#AB0520;">UA</div>
+      <div class="tl-content">
+        <p>Ph.D. in Aerospace Engineering, University of Arizona.</p>
+      </div>
+    </div>
+
+    <div class="tl-entry">
+      <div class="tl-year">20xx–20xx</div>
+      <div class="tl-spine"><div class="tl-dot"></div></div>
+      <div class="tl-logo" style="background:#E03A3E;">UMD</div>
+      <div class="tl-content">
+        <p>M.E. in Robotics, University of Maryland – College Park.</p>
+      </div>
+    </div>
+
+    <div class="tl-entry">
+      <div class="tl-year">20xx–20xx</div>
+      <div class="tl-spine"><div class="tl-dot"></div></div>
+      <div class="tl-logo" style="background:#1a1a6e;">SRM</div>
+      <div class="tl-content">
+        <p>B.Tech. in Mechatronics, SRM University.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bio -->
+  <p>
+    I am a Postdoctoral Fellow at the University of South Alabama's
+    <a href="https://sites.google.com/view/impact-lab">Intelligent Multi-level Power-Aware Circuits and Systems (IMPACT) Lab</a>,
+    under the guidance of
+    <a href="https://www.southalabama.edu/colleges/engineering/ece/wang.html">Prof. Jinhui Wang</a> and
+    <a href="https://www.southalabama.edu/colleges/engineering/ece/gong.html">Prof. Na Gong</a>.
+  </p>
+  <p>
+    My academic journey includes a Ph.D. in Aerospace Engineering from the University of Arizona, an M.E. in Robotics from the
+    University of Maryland – College Park, and a B.Tech. in Mechatronics from SRM University.
+  </p>
+  <p>
+    Outside academia, I serve as a certified USACUA and WICUA cricket referee, officiating in various leagues including Minor League Cricket.
+    In my free time, I enjoy reading books (I am a fan of the <a href="https://rebeccayarros.com/empyrean">Empyrean</a> series), playing cricket, and supporting Arsenal FC.
+  </p>
+
+  <!-- Publications -->
+  <h2>Publications</h2>
+  <p style="font-size:0.9em; color:#555;">
+    Full list on <a href="https://scholar.google.com/citations?user=9jLXtbsAAAAJ&hl=en">Google Scholar</a>.
+  </p>
+  <ol class="pubs">
+    <li>
+      <strong>Carbon Efficiency of Natural Organic Honey-Memristor Based Neuromorphic Computing</strong><br>
+      <em>Harshvardhan Uppaluru</em>, Zoe Templin, Shah Zayed Riam, Feng Zhao, and Jinhui Wang.<br>
+      <em>Proceedings of the Great Lakes Symposium on VLSI (GLSVLSI) 2025</em>
+      <div class="pub-links">
+        <a href="https://doi.org/10.1145/3716368.3735268">Paper</a>
+      </div>
+    </li>
+    <li>
+      <strong>Variation-Aware Non-linear Mapping for Honey-Memristor Based Neuromorphic System</strong><br>
+      <em>Harshvardhan Uppaluru</em>, Md Mehedi Hasan Tanim, Md Omar Faruque, Mohammed Rafeeq Khan, Zoe Templin, Feng Zhao, and Jinhui Wang.<br>
+      <em>International Conference on Neuromorphic Systems (ICONS) 2024</em>
+      <div class="pub-links">
+        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10766560">Paper</a>
+      </div>
+    </li>
+    <li>
+      <strong>256-level honey memristor-based in-memory neuromorphic system</strong><br>
+      <em>Harshvardhan Uppaluru</em>, Zoe Templin, Mohammed Rafeeq Khan, Md Omar Faruque, Feng Zhao, and Jinhui Wang.<br>
+      <em>Electronics Letters (EL) 2024</em>
+      <div class="pub-links">
+        <a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ell2.70029">Paper</a>
+      </div>
+    </li>
+  </ol>
+
+  <!-- Teaching & Services -->
+  <h2>Teaching &amp; Service</h2>
+  <p><strong>Teaching</strong></p>
+  <ul class="plain">
+    <li>AME 455 Control System Design — Instructor/TA
+      (<a href="https://github.com/uhvardhan/AME455_Summer2023">Summer 2023</a>, Spring 2023, Fall 2022, Spring 2022)
+    </li>
+  </ul>
+  <p><strong>Professional Service</strong></p>
+  <ul class="plain">
+    <li>International Conference on Physical Assurance and Inspection of Electronics (PAINE) — Reviewer</li>
+    <li>International Conference on Neuromorphic Computing Systems (ICONS) — Session Chair</li>
+    <li>Great Lakes Symposium on VLSI (GLSVLSI) — Reviewer, Program Committee Member, Poster Session Chair, Session Chair</li>
+    <li>Transactions on Aerospace and Electronic Systems (TAES) — Reviewer</li>
+    <li>Design Automation Conference (DAC) — Reviewer</li>
+    <li>International Conference on Unmanned Aircraft Systems (ICUAS) — Reviewer, Associate Editor</li>
+  </ul>
+
+  <!-- Writing -->
+  <h2>Writing</h2>
+  <p class="writing-placeholder">Nothing here yet — coming soon.</p>
+
+  <footer>
+    &copy; Harshvardhan Uppaluru
+  </footer>
+
+</div>
+</body>
+</html>
